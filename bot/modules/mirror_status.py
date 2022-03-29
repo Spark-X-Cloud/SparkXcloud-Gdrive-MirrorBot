@@ -1,7 +1,6 @@
 from telegram.ext import CommandHandler
 from bot import dispatcher, status_reply_dict, status_reply_dict_lock, download_dict, download_dict_lock
 from bot.helper.telegram_helper.message_utils import *
-from telegram.error import BadRequest
 from bot.helper.telegram_helper.filters import CustomFilters
 from bot.helper.telegram_helper.bot_commands import BotCommands
 import threading

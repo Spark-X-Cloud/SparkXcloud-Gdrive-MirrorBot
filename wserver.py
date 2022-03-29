@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
 # (c) YashDK [yash-dk@github]
 
-import os
-import time
 import logging
 import qbittorrentapi as qba
 import asyncio

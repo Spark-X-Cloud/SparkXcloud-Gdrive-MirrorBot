@@ -2,7 +2,6 @@ import sys
 from bot import aria2, LOGGER, DOWNLOAD_DIR, get_client
 import shutil
 import os
-import pathlib
 import magic
 import tarfile
 from .exceptions import NotSupportedExtractionArchive

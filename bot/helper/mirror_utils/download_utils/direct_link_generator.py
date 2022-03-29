@@ -10,10 +10,8 @@ for original authorship. """
 
 from bot import LOGGER, UPTOBOX_TOKEN
 import json
-import math
 import re
 import urllib.parse
-from os import popen
 from random import choice
 from urllib.parse import urlparse
 
@@ -21,7 +19,6 @@ import lk21
 import requests, cfscrape
 from bs4 import BeautifulSoup
 from js2py import EvalJs
-from lk21.extractors.bypasser import Bypass
 from base64 import standard_b64encode
 from bot.helper.telegram_helper.bot_commands import BotCommands
 from bot.helper.ext_utils.exceptions import DirectDownloadLinkException

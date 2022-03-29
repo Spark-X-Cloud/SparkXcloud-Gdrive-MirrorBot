@@ -3,13 +3,10 @@
 
 import sys
 import subprocess
-import heroku3
-
-from datetime import datetime
-from os import environ, execle, path, remove
+from os import environ, execle
 
 from git import Repo
-from git.exc import GitCommandError, InvalidGitRepositoryError, NoSuchPathError
+from git.exc import GitCommandError, InvalidGitRepositoryError
 
 from pyrogram import filters
 

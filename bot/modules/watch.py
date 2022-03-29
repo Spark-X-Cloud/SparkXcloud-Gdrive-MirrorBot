@@ -1,6 +1,6 @@
 from telegram.ext import CommandHandler
-from telegram import Bot, Update
-from bot import DOWNLOAD_DIR, dispatcher, LOGGER
+from telegram import Bot
+from bot import DOWNLOAD_DIR, dispatcher
 from bot.helper.telegram_helper.message_utils import sendMessage, sendStatusMessage
 from .mirror import MirrorListener
 from bot.helper.mirror_utils.download_utils.youtube_dl_download_helper import YoutubeDLHelper

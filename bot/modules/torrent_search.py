@@ -1,19 +1,15 @@
-import os
 import time
 import html
 import asyncio
 import aiohttp
-import json
 import feedparser
-import requests
 import itertools
 
 from telegram.ext import CommandHandler
-from telegram import ParseMode
 
 from urllib.parse import quote as urlencode, urlsplit
 
-from pyrogram import Client, filters, emoji
+from pyrogram import filters, emoji
 from pyrogram.parser import html as pyrogram_html
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from pyrogram.handlers import MessageHandler, CallbackQueryHandler

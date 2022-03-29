@@ -19,7 +19,7 @@ from telegram.ext import CallbackQueryHandler
 from bot import download_dict, download_dict_lock, BASE_URL, dispatcher, get_client, TORRENT_DIRECT_LIMIT, TAR_UNZIP_LIMIT
 from bot.helper.mirror_utils.status_utils.qbit_download_status import QbDownloadStatus
 from bot.helper.telegram_helper.message_utils import *
-from bot.helper.ext_utils.bot_utils import setInterval, new_thread, MirrorStatus, getDownloadByGid, get_readable_file_size, check_limit
+from bot.helper.ext_utils.bot_utils import setInterval, new_thread, getDownloadByGid, get_readable_file_size, check_limit
 from bot.helper.telegram_helper import button_build
 
 LOGGER = logging.getLogger(__name__)

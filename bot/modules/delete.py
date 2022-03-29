@@ -1,6 +1,5 @@
 from telegram.ext import CommandHandler
 import threading
-from telegram import Update
 from bot import dispatcher, LOGGER
 from bot.helper.telegram_helper.message_utils import auto_delete_message, sendMessage
 from bot.helper.telegram_helper.filters import CustomFilters
